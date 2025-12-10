@@ -1,0 +1,40 @@
+# NODES (9 variables)
+# ===================
+Time_of_Day
+Cloudiness
+Wind_Intensity
+Precipitation
+Precipitation_Deposits
+Wetness
+Fog_Density
+Fog_Distance
+Road_Friction
+
+# EDGES (11 directed arcs)
+# ========================
+# Format: Parent -> Child
+
+# From Time_of_Day
+Time_of_Day -> Cloudiness
+Time_of_Day -> Wind_Intensity
+
+# From Cloudiness
+Cloudiness -> Precipitation
+
+# From Wind_Intensity  
+Wind_Intensity -> Fog_Density
+
+# From Precipitation
+Precipitation -> Precipitation_Deposits
+Precipitation -> Fog_Density
+
+# From Precipitation_Deposits
+Precipitation_Deposits -> Wetness
+Precipitation_Deposits -> Road_Friction
+
+# From Wetness
+Wetness -> Road_Friction
+
+# From Fog_Density
+Fog_Density -> Fog_Distance
+Fog_Density -> Wetness
