@@ -16,15 +16,9 @@ This module fetches weather and road condition data from the Norwegian Meteorolo
 
 ### Why Two Frost Stations?
 
-The main station (e.g., SN84770) provides comprehensive road condition data but may lack cloudiness measurements. A secondary station with cloudiness data is used to supplement the dataset, ensuring complete weather parameter coverage.
+The main station (e.g., SN84770) provides comprehensive road condition data but may lack cloudiness measurements. A secondary station (very close to it) with cloudiness data is used to supplement the dataset, ensuring complete weather parameter coverage.
 
 ## Quick Start
-
-### Installation
-
-```bash
-pip install -r requirements.txt
-```
 
 ### Configuration
 
@@ -40,7 +34,7 @@ frost_api:
 
 location:
   frost_station_main: "SN84770"    # Main station with road data
-  frost_station_cloud: "SN90450"   # Station with cloudiness
+  frost_station_cloud: "SN84970"   # Station with cloudiness
 
 time_period:
   start: "2020-12-01T00:00:00Z"
@@ -82,9 +76,9 @@ output_files = collect_full_dataset(
     frost_client_id="YOUR_CLIENT_ID",
     frost_client_secret="YOUR_CLIENT_SECRET",
     station_id_main="SN84770",
-    station_id_cloud="SN90450",
+    station_id_cloud="SN84970",
     start_time="2020-12-01T00:00:00Z",
-    end_time="2024-03-03T23:59:59Z",
+    end_time="2025-11-05T23:00:00Z",
     output_dir=Path("raw")
 )
 
@@ -119,7 +113,6 @@ data/
 ├── cli.py                            # Command-line interface
 ├── config.yaml                       # Configuration file
 ├── data_collection_tutorial.ipynb   # Tutorial notebook
-├── requirements.txt                  # Python dependencies
 └── README.md                         # This file
 ```
 
@@ -129,15 +122,15 @@ The final processed dataset (`bayscen_final_data.csv`) contains hourly weather o
 
 | Column | Range | Description |
 |--------|-------|-------------|
-| `Time of Day` | -90 to 90 | Sun altitude angle (degrees) |
+| `Time_of_Day` | -90 to 90 | Sun altitude angle (degrees) |
 | `Cloudiness` | 0-100 | Cloud coverage percentage |
 | `Precipitation` | 0, 20, 40, 60, 80, 100 | Precipitation intensity level |
-| `Wind Intensity` | 0, 20, 40, 60, 80, 100 | Wind strength level |
-| `Fog Density` | 0, 20, 40, 60, 80, 100 | Fog thickness level |
-| `Fog Distance` | 0, 20, 40, 60, 80, 100 | Visibility distance level |
+| `Wind_Intensity` | 0, 20, 40, 60, 80, 100 | Wind strength level |
+| `Fog_Density` | 0, 20, 40, 60, 80, 100 | Fog thickness level |
+| `Fog_Distance` | 0, 20, 40, 60, 80, 100 | Visibility distance level |
 | `Wetness` | 0, 20, 40, 60, 80, 100 | Road surface wetness |
-| `Precipitation Deposits` | 0, 20, 40, 60, 80, 100 | Water/snow on road |
-| `Road Friction` | 0.0-1.0 | Tire grip coefficient |
+| `Precipitation_Deposits` | 0, 20, 40, 60, 80, 100 | Water/snow on road |
+| `Road_Friction` | 0.0-1.0 | Tire grip coefficient |
 
 ### Discretization Details
 
@@ -196,19 +189,6 @@ The processing pipeline consists of:
 
 ## Troubleshooting
 
-### Missing Cloudiness Data
-
-If the secondary Frost station doesn't have cloudiness data:
-- Verify the station ID has cloud measurements
-- Check alternative nearby stations
-- The processor will handle missing values gracefully
-
-### API Rate Limits
-
-Frost API: Generally no strict limits for authenticated requests
-- Data collection is respectful with built-in delays
-- Large time periods may take 20-40 minutes
-
 ### Invalid Station IDs
 
 Search for valid stations at:
@@ -229,14 +209,9 @@ See `data_collection_tutorial.ipynb` for a step-by-step walkthrough with:
 - Data inspection and validation
 - Saving final dataset
 
-Run with:
-```bash
-jupyter notebook data_collection_tutorial.ipynb
-```
-
 ## Notes
 
-1. **Station Selection**: The main station must have road condition sensors. Station SN84770 (Narvik, Norway) is recommended for winter testing scenarios.
+1. **Station Selection**: The main station must have road condition sensors. Station SN84770 (Narvik, Norway) is recommended.
 
 2. **Time Zones**: All timestamps are in UTC. The processing pipeline preserves UTC.
 

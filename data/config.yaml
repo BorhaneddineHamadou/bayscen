@@ -10,8 +10,8 @@
 # Official documentation: https://frost.met.no/
 
 frost_api:
-  client_id: "2a75d72d-9bb1-45d3-9139-84a1da2a550b" #"YOUR_FROST_CLIENT_ID"
-  client_secret: "6135b795-7851-44f6-9254-b499176a3e7c" # "YOUR_FROST_CLIENT_SECRET"
+  client_id: "YOUR_FROST_CLIENT_ID"
+  client_secret: "YOUR_FROST_CLIENT_SECRET"
 
 # ============================================================================
 # Location Configuration
