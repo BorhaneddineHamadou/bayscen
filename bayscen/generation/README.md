@@ -458,4 +458,3 @@ This implementation corresponds to:
 
 For questions about the generation module:
 - Open an issue on GitHub
-- Email: borhaneddine.hamadou@cea.fr

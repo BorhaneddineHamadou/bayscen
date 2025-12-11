@@ -1,0 +1,7 @@
+Method,Overall Realism (%),Mean TTC < 0.5 Count,Mean TTC < 0.5 Realistic (#),Mean TTC < 0.5 Realism (%),Collisions (≥2/3) Count,Collisions (≥2/3) Realistic (#),Collisions (≥2/3) Realism(%)
+bayscen,90.7,25,22,88.0,35,31,88.6
+random,38.3,3,0,33.3,10,3,30.0
+sitcov,36.6,18,7,38.9,19,7,42.1
+PICT_3w,35.6,12,3,33.3,13,6,46.2
+PICT_2w,36.8,1,0,0.0,2,1,50.0
+CTBC,47.9,6,3,50.0,9,3,44.4

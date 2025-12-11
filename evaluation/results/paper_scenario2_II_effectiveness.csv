@@ -1,0 +1,7 @@
+Method,N,TTC<0.5 Count (#),TTC<0.5 Rate (%),Collision (≥2/3) Count (#),Collision (≥2/3) Rate (%),Collision (3/3) Count (#),Collision (3/3) Rate (%)
+bayscen,648,25,3.9,35,5.4,11,1.7
+random,648,3,0.5,10,1.5,2,0.3
+sitcov,648,18,2.8,19,2.9,6,0.9
+PICT_3w,525,12,2.3,13,2.5,1,0.2
+PICT_2w,68,1,1.5,2,2.9,0,0.0
+CTBC,165,6,3.6,9,5.5,2,1.2
