@@ -159,19 +159,6 @@ generator = BayesianScenarioGenerator(
 )
 ```
 
-**Typical Scenario Coverage**
-```python
-generator = BayesianScenarioGenerator(
-    model=model,
-    leaf_nodes=abstracted_vars,
-    initial_nodes=concrete_vars,
-    similarity_threshold=0.05,  # Higher diversity
-    n_samples=100000,
-    use_sampling=True,
-    prefer_rare=False           # Common scenarios
-)
-```
-
 ## Evaluation Metrics
 
 ### 1. Realism
@@ -182,11 +169,6 @@ Measures how close generated scenarios are to real-world distribution:
 realism = compute_realism(real_data, generated, attributes)
 # Returns: Percentage of scenarios within real-world threshold (0-100%)
 ```
-
-**Interpretation:**
-- > 90%: Excellent realism
-- 70-90%: Good realism  
-- < 70%: Review generation parameters
 
 ### 2. Coverage
 
@@ -200,22 +182,6 @@ coverage = compute_coverage(real_data, generated, attributes)
 #   'total_real_unique': 1000
 # }
 ```
-
-**Interpretation:**
-- > 90%: Excellent coverage
-- 70-90%: Good coverage
-- < 70%: Consider increasing scenario count
-
-### 3. Diversity
-
-Measures uniqueness of generated scenarios:
-
-```python
-unique = count_unique_combinations(generated, attributes)
-# Returns: Number of unique scenarios
-```
-
-**Target:** Should be close to total generated (high uniqueness)
 
 ## Output Files
 
@@ -299,45 +265,11 @@ scenarios = generator.generate_scenarios()
 print(f"Generated {len(scenarios)} scenarios")
 ```
 
-### Example 3: Evaluate and Compare
-
-```python
-from generation.evaluation_metrics import evaluate_scenarios, compare_distributions
-
-# Evaluate rare scenarios
-rare_results = evaluate_scenarios(
-    'data/processed/bayscen_final_data.csv',
-    rare_scenarios,
-    attributes=['Cloudiness', 'Wind_Intensity', ...]
-)
-
-# Compare distributions
-compare_distributions(
-    rare_results['distributions'],
-    'Visibility',
-    plot=True
-)
-```
-
-### Example 4: Export for CARLA
-
-```python
-from generation.generation_utils import export_for_carla, validate_scenarios
-
-# Validate first
-validation = validate_scenarios(scenarios)
-if validation['is_valid']:
-    # Export for CARLA simulator
-    export_for_carla(scenarios, 'carla_test_suite.csv')
-else:
-    print(f"Issues found: {validation['issues']}")
-```
-
 ## Differences Between Scenarios
 
 | Feature | Scenario 1 (Vehicle-Vehicle) | Scenario 2 (Vehicle-Cyclist) |
 |---------|------------------------------|------------------------------|
-| **Concrete Variables** | 8 environmental + 4 T-junction | 9 environmental + 4 T-junction |
+| **Concrete Variables** | 8 environmental + 4 junction | 9 environmental + 4 junction |
 | **Includes Time_of_Day** | No | Yes (lighting conditions) |
 | **Total Combinations** | 648 (6×6×6×3) | 648 (6×6×6×3) |
 | **Visibility Parents** | Fog_Density, Fog_Distance, Precipitation | + Time_of_Day |
@@ -346,95 +278,11 @@ else:
 ## Performance
 
 **Typical generation time (on standard hardware):**
-- Scenario 1 (648 scenarios): ~10-15 minutes
-- Scenario 2 (648 scenarios): ~12-18 minutes
-
-**Memory usage:**
-- Peak: ~2-3 GB
-- Recommended: 8 GB RAM minimum
+- Scenario 1 (648 scenarios): ~90-120 minutes
+- Scenario 2 (648 scenarios): ~100-130 minutes
 
 **Optimization tips:**
 - Reduce `n_samples` for faster generation (trade-off: lower quality)
-- Increase `similarity_threshold` for faster diversity checks
-- Use SSD for faster I/O
-
-## Troubleshooting
-
-### Issue: "Model not found"
-
-**Solution:** Train the model first:
-```bash
-cd modeling
-python bn_parametrization.py --scenario 1
-```
-
-### Issue: "Sampling failed"
-
-**Cause:** Invalid evidence for BN
-
-**Solution:** Check that abstracted variables match model:
-```python
-# Verify model has all leaf nodes
-for node in leaf_nodes:
-    assert node in model.nodes(), f"Missing: {node}"
-```
-
-### Issue: Low realism (<70%)
-
-**Possible causes:**
-1. `prefer_rare=True` with extreme rarity bias
-2. Insufficient training data
-3. Poor BN structure
-
-**Solutions:**
-- Try `prefer_rare=False`
-- Increase training data size
-- Review BN structure learning
-
-### Issue: Low coverage (<70%)
-
-**Possible causes:**
-1. Too few scenarios generated
-2. High similarity threshold
-3. Missing parameter combinations
-
-**Solutions:**
-- Increase abstracted variable resolution
-- Reduce `similarity_threshold`
-- Check combinatorial coverage
-
-## Advanced Usage
-
-### Custom Abstracted Variables
-
-```python
-# Define custom abstracted variables
-custom_leaf_nodes = {
-    'Visibility': [0, 25, 50, 75, 100],  # 5 values instead of 6
-    'Road_Surface': [0, 50, 100],         # 3 values for faster generation
-    'Vehicle_Stability': [0, 50, 100],
-    'Collision_Point': ['c1', 'c2']       # Only 2 collision points
-}
-
-# Total: 5 × 3 × 3 × 2 = 90 combinations (much faster!)
-```
-
-### Batch Generation
-
-```python
-# Generate multiple scenario sets in parallel
-from multiprocessing import Pool
-
-def generate_for_config(config):
-    scenario, mode = config
-    pipeline = ScenarioGenerationPipeline(scenario, mode)
-    return pipeline.run()
-
-configs = [(1, 'rare'), (1, 'common'), (2, 'rare'), (2, 'common')]
-
-with Pool(4) as pool:
-    results = pool.map(generate_for_config, configs)
-```
 
 ## Paper References
 
