@@ -20,11 +20,10 @@ bayscen/modeling/
 │   └── learned_structures/
 │       ├── scenario1_structure.txt    # Learned BN for Scenario 1 (Vehicle-Vehicle)
 │       └── scenario2_structure.txt    # Learned BN for Scenario 2 (Vehicle-Cyclist)
-├── bn_parametrization_scenario1.py    # Parameterization for Scenario 1
-├── bn_parametrization_scenario2.py    # Parameterization for Scenario 2
+├── bn_parametrization.py    # Parameterization for Scenarios
 └── models/                            # Saved trained BN models
-    ├── scenario1_full_bayesian_network.pkl
-    └── scenario2_full_bayesian_network.pkl
+    ├── scenario1_full_bayesian_network.pkl # The final trained bayesian network ready to use for scenario 1
+    └── scenario2_full_bayesian_network.pkl # The final trained bayesian network ready to use for scenario 2
 ```
 
 ## Methodology
@@ -129,21 +128,14 @@ Time_of_Day → Wind_Intensity
 
 ### Training a Bayesian Network
 
-```python
-from bayscen.modeling.bn_parametrization_scenario1 import train_bn_scenario1
-from bayscen.modeling.bn_parametrization_scenario2 import train_bn_scenario2
+**Command Line (Recommended):**
+```bash
+# Train Scenario 1 (Vehicle-Vehicle)
 
-# Train for Scenario 1 (Vehicle-Vehicle)
-model_s1 = train_bn_scenario1(
-    data_path='data/processed/bayscen_final_data.csv',
-    save_path='bayscen/modeling/models/scenario1_full_bayesian_network.pkl'
-)
+python bn_parametrization.py --scenario 1
 
-# Train for Scenario 2 (Vehicle-Cyclist)
-model_s2 = train_bn_scenario2(
-    data_path='data/processed/bayscen_final_data.csv',
-    save_path='bayscen/modeling/models/scenario2_full_bayesian_network.pkl'
-)
+# Train Scenario 2 (Vehicle-Cyclist - with Time_of_Day)
+python bn_parametrization.py --scenario 2
 ```
 
 ### Loading a Trained Model
