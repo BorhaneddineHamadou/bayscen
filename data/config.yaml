@@ -1,0 +1,72 @@
+# BayScen Data Collection Configuration
+# 
+# This file contains all settings for collecting weather data from
+# Frost API (Norwegian Meteorological Institute).
+
+# ============================================================================
+# Frost API Configuration (Norwegian Meteorological Institute)
+# ============================================================================
+# Register for credentials at: https://frost.met.no/auth/requestCredentials.html
+# Official documentation: https://frost.met.no/
+
+frost_api:
+  client_id: "2a75d72d-9bb1-45d3-9139-84a1da2a550b" #"YOUR_FROST_CLIENT_ID"
+  client_secret: "6135b795-7851-44f6-9254-b499176a3e7c" # "YOUR_FROST_CLIENT_SECRET"
+
+# ============================================================================
+# Location Configuration
+# ============================================================================
+# Specify the weather stations for data collection
+
+location:
+  # Main Frost station (provides road conditions, wind, precipitation, visibility)
+  # Example: SN84770 (Narvik, Norway)
+  frost_station_main: "SN84770"
+  
+  # Secondary Frost station (provides cloudiness data)
+  # Note: Main station may not have cloudiness data available
+  # Example: SN90450 (nearby station with cloud data)
+  frost_station_cloud: "SN84970"
+
+# ============================================================================
+# Time Period Configuration
+# ============================================================================
+# Specify the time range for data collection (ISO 8601 format with timezone)
+
+time_period:
+  start: "2020-12-01T00:00:00Z"
+  end: "2025-11-05T23:00:00Z"
+
+# ============================================================================
+# Output Configuration
+# ============================================================================
+# Specify where to save raw and processed data
+
+output:
+  # Directory for raw data from APIs
+  raw_dir: "raw"
+  
+  # Directory for processed/normalized data
+  processed_dir: "processed"
+
+# ============================================================================
+# Notes
+# ============================================================================
+# 
+# 1. Frost API credentials are required. Register at:
+#    https://frost.met.no/auth/requestCredentials.html
+#
+# 2. Station IDs can be found by searching the Frost API:
+#    https://frost.met.no/sources/v0.jsonld?types=SensorSystem
+#
+# 3. The main station (SN84770) provides road surface conditions which are
+#    critical for autonomous vehicle testing scenarios.
+#
+# 4. The secondary station is used because the main station may not have
+#    complete cloudiness measurements. Both stations should be geographically
+#    close to ensure data consistency.
+#
+# 5. Time period should cover the duration for which you want training data.
+#    Typical research periods: 3-12 months of continuous data.
+#
+# 6. Data is collected at 10-minute resolution and then aggregated to hourly.
