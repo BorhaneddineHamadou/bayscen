@@ -25,7 +25,7 @@ experiments/
 │   │   │   └── ctbc.xlsx
 │   │   └── run_simulation.py
 │   │
-│   └── scenario2_interfuser/        # Scenario 1 (Vehicle-Cyclist)
+│   └── scenario2_interfuser/        # Scenario 2 (Vehicle-Cyclist)
 │       ├── generated_scenarios/
 │       │   ├── bayscen.xlsx
 │       │   ├── random.xlsx
@@ -52,7 +52,7 @@ These experiments compare BayScen against five baseline methods for AV testing:
 *   **OS:** Windows 10/11 (Instructions tailored for Windows CMD).
 *   **GPU:** Dedicated GPU capable of running CARLA and PyTorch models.
 *   **Anaconda:** Installed on your system.
-*   **Storage:** Sufficient space for CARLA assets and model weights.
+*   **Storage:** Sufficient space for CARLA assets and interfuser models.
 
 ---
 
@@ -156,7 +156,7 @@ set CHECKPOINT_ENDPOINT=results\interfuser_result.json
 set SCENARIOS=leaderboard\data\scenarios\town03_all_scenarios.json
 ```
 
-### 2. Execute Simulation
+### 2. Execute Simulation (Ensure `CarlaUE4.exe` is running)
 1.  Navigate to the specific scenario folder inside ScenarioRunner:
     ```bash
     cd scenario_runner-0.9.10
