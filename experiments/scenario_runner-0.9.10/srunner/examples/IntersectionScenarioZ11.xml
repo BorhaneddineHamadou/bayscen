@@ -1,0 +1,6 @@
+<scenarios>
+    <scenario name="IntersectionScenarioZ_11" town="Town03" type="IntersectionScenarioZ_11">
+        <ego_vehicle model="vehicle.lincoln.mkz2017" x="-74.32" y="-50" yaw="270" z="0.5" />
+        <other_actor model="vehicle.diamondback.century" x="-105" y="-136" yaw="0" z="0.5" />
+    </scenario>
+</scenarios>
