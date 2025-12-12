@@ -1,6 +1,51 @@
-# BayScen Experiments: Setup & Execution Guide
+# BayScen Experiments: CARLA Simulation Setup & Execution
 
-This directory contains the necessary code, agents, and configuration files to reproduce the BayScen experiments using **CARLA Simulator**, **ScenarioRunner**, and **InterFuser**.
+This directory contains all necessary code, configurations, and pre-generated scenarios to reproduce the BayScen experiments presented in our paper. The experiments evaluate autonomous vehicle (AV) safety using **CARLA Simulator 0.9.10**, **ScenarioRunner**, and the **InterFuser** end-to-end driving agent.
+
+## Directory Structure
+
+```
+experiments/
+├── assets/                          # Visualization screenshots
+│   ├── s1.jpg
+│   ├── s2.jpg
+│   └── s3.jpg
+│
+├── InterFuser/                      # InterFuser agent
+│
+├── PythonAPI/                       # Modified CARLA Python API
+│
+├── scenario_runner-0.9.10/          # Modified ScenarioRunner
+│   ├── scenario1_interfuser/        # Scenario 1 (Vehicle-Vehicle)
+│   │   ├── generated_scenarios/     # Pre-generated test scenarios
+│   │   │   ├── bayscen.xlsx
+│   │   │   ├── random.xlsx
+│   │   │   ├── sitcov.xlsx
+│   │   │   ├── pict.xlsx
+│   │   │   └── ctbc.xlsx
+│   │   └── run_simulation.py
+│   │
+│   └── scenario2_interfuser/        # Scenario 1 (Vehicle-Cyclist)
+│       ├── generated_scenarios/
+│       │   ├── bayscen.xlsx
+│       │   ├── random.xlsx
+│       │   ├── sitcov.xlsx
+│       │   ├── pict.xlsx
+│       │   └── ctbc.xlsx
+│       └── run_simulation.py
+│
+├── environment.yml                  # Conda environment specification
+└── README.md                        # This file
+```
+
+## Overview
+
+These experiments compare BayScen against five baseline methods for AV testing:
+- **BayScen**: Our Bayesian Network-based approach
+- **Random**: Random scenario generation
+- **SitCov**: Situation coverage-based testing
+- **PICT**: Pairwise combinatorial testing (2-way and 3-way)
+- **CTBC**: Combinatorial testing with base choice
 
 ## Prerequisites
 
@@ -140,3 +185,11 @@ Below are examples of the InterFuser interface during **Scenario 1 (Vehicle-to-V
   <img src="assets/s1.jpg" width="70%" />
   <img src="assets/s3.jpg" width="70%" />
 </p>
+
+## Support
+
+For issues specific to:
+- **CARLA**: Check CARLA GitHub issues
+- **ScenarioRunner**: Check scenario_runner GitHub
+- **InterFuser**: Check InterFuser repository
+- **BayScen experiments**: [Create an issue in this repository]
