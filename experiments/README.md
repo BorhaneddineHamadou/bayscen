@@ -136,7 +136,7 @@ set SCENARIOS=leaderboard\data\scenarios\town03_all_scenarios.json
 Below are examples of the InterFuser interface during **Scenario 1 (Vehicle-to-Vehicle Interaction)**. 
 
 <p align="center">
-  <img src="assets/s1.jpg" width="30%" />
-  <img src="assets/s2.jpg" width="30%" />
-  <img src="assets/s3.jpg" width="30%" />
+  <img src="assets/s2.jpg" width="70%" />  
+  <img src="assets/s1.jpg" width="70%" />
+  <img src="assets/s3.jpg" width="70%" />
 </p>
