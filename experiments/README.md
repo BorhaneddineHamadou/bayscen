@@ -3,7 +3,6 @@
 This directory contains all necessary code, configurations, and pre-generated scenarios to reproduce the BayScen experiments presented in our paper. The experiments evaluate autonomous vehicle (AV) safety using **CARLA Simulator 0.9.10**, **ScenarioRunner**, and the **InterFuser** end-to-end driving agent.
 
 ## Directory Structure
-
 ```
 experiments/
 ├── assets/                          # Visualization screenshots
@@ -20,7 +19,11 @@ experiments/
 │   │   │   ├── sitcov.xlsx
 │   │   │   ├── pict.xlsx
 │   │   │   └── ctbc.xlsx
-│   │   └── run_simulation.py
+│   │   ├── outputs/                 # Output directory for scenario generation
+│   │   ├── sitcov.py                # Official SitCov implementation
+│   │   ├── run_simulation.py        # Main simulation execution script
+│   │   ├── run_sitcov.py            # SitCov scenario generation script
+│   │   └── run_random.py            # Random scenario generation script
 │   │
 │   └── scenario2_interfuser/        # Scenario 2 (Vehicle-Cyclist)
 │       ├── generated_scenarios/
@@ -29,7 +32,11 @@ experiments/
 │       │   ├── sitcov.xlsx
 │       │   ├── pict.xlsx
 │       │   └── ctbc.xlsx
-│       └── run_simulation.py
+│       ├── outputs/                 # Output directory for scenario generation
+│       ├── sitcov.py                # Official SitCov implementation
+│       ├── run_simulation.py        # Main simulation execution script
+│       ├── run_sitcov.py            # SitCov scenario generation script
+│       └── run_random.py            # Random scenario generation script
 │
 ├── environment.yml                  # Conda environment specification
 └── README.md                        # This file
