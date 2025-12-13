@@ -16,7 +16,7 @@ This module fetches weather and road condition data from the Norwegian Meteorolo
 
 ### Why Two Frost Stations?
 
-The main station (e.g., SN84770) provides comprehensive road condition data but may lack cloudiness measurements. A secondary station (very close to it) with cloudiness data is used to supplement the dataset, ensuring complete weather parameter coverage.
+The main station (e.g., SN84770) provides comprehensive road condition data but lack cloudiness measurements. A secondary station (very close to it) with cloudiness data is used to supplement the dataset, ensuring complete weather parameter coverage.
 
 ## Quick Start
 
@@ -38,7 +38,7 @@ location:
 
 time_period:
   start: "2020-12-01T00:00:00Z"
-  end: "2024-03-03T23:59:59Z"
+  end: "2025-11-05T23:00:00Z"
 ```
 
 ### Command Line Usage

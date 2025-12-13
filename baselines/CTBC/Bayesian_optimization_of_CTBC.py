@@ -5,6 +5,7 @@ import scipy.special as ss
 import itertools
 import bintrees
 import csv
+import os
 
 #black box optimization function
 
@@ -431,13 +432,29 @@ for bbf_evaluation_i in range(3, bbf_evaluation_n):
 #        plt.gca().xaxis.set_major_locator(plt.NullLocator())
 #        plt.gca().yaxis.set_major_locator(plt.NullLocator())
     plt.margins(0,0)
-#        plt.savefig('C:\python figure\\black_box_optimization.png', format='png', dpi=600)
-    plt.savefig('C:\\Users\\BH280005\\Desktop\\BayScen\\Baselines\\CTBC\\Figures\\black_box_optimization3.png',dpi=600.0)
+
+    # 1. Get the directory where this script is located
+    # (.../baselines/CTBC)
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # 2. Define the output directory
+    # (.../baselines/CTBC/Figures)
+    figures_dir = os.path.join(script_dir, "Figures")
+
+    # 3. Create the directory if it doesn't exist
+    if not os.path.exists(figures_dir):
+        os.makedirs(figures_dir)
+
+    # 4. Construct the full file paths
+    png_path = os.path.join(figures_dir, 'black_box_optimization3.png')
+    svg_path = os.path.join(figures_dir, 'black_box_optimization3.svg')
+
+    # 5. Save the figures
+    plt.savefig(png_path, dpi=600.0)
     
     plt.margins(0,0)
-    plt.savefig('C:\\Users\\BH280005\\Desktop\\BayScen\\Baselines\\CTBC\\Figures\\black_box_optimization3.svg',format='svg')
+    plt.savefig(svg_path, format='svg')
     plt.show()
-    #plt.gcf().clear()
     
     #Get the index of the next input to evaluate in black box function
     next_input_i = acquisition_function.evaluate(test_means, test_variances, test_values)

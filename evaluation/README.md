@@ -1,6 +1,6 @@
 # Evaluation Module
 
-Complete evaluation system for comparing scenario generation methods. Computes all metrics reported in the paper and generates paper-ready tables.
+Complete evaluation system for comparing scenario generation methods. Computes all metrics reported in the paper.
 
 ## Structure
 
@@ -39,7 +39,7 @@ python evaluate.py --scenario 2
 Location: `Scenario{N} Generated Scenarios/`
 
 Required files:
-- `bayscen.xlsx` (or `bayscen_scenarios.xlsx`)
+- `bayscen.xlsx`
 - `random.xlsx`
 - `sitcov.xlsx`
 - `PICT_3w.xlsx`
@@ -54,8 +54,6 @@ Location: `Scenario{N} Execution Results (JSON)/{method}/run{1,2,3}/`
 Required files per run:
 - `min_ttc_log.json` - Format: `[{"min_ttc": 2.45}, ...]`
 - `run_results.json` - Format: `[{"collision_occurred": false, "run_duration": 271.8}, ...]`
-
-**Note:** If `collision_occurred = true`, TTC is automatically set to 0.
 
 ### Real-World Data
 Location: `../data/processed/bayscen_final_data.csv`
@@ -114,9 +112,6 @@ Columns: Method, All triples, Real triples, Precision, F1, N
 - Scenario 1: ~6-8 minutes (6 methods)
 - Scenario 2: ~7-9 minutes (6 methods)
 - Single method: ~2-3 seconds
-
-### Column name mismatch
-Code automatically removes `_` from column names. Check that the Excel files have the expected columns.
 
 ### Wrong metric values
 Verify:
