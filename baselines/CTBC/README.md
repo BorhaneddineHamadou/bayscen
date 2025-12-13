@@ -182,7 +182,6 @@ For the BayScen paper experiments:
 1. **Importance Indices**: Data-driven (collision rates) instead of AHP expert judgments
 2. **Domain**: Autonomous vehicle junction scenarios instead of Lane Departure Warning
 3. **Parameters**: 12-13 environmental/geometric parameters instead of highway lane-keeping parameters
-4. **Implementation**: Python with Bayesian optimization instead of original implementation
 
 ## References
 

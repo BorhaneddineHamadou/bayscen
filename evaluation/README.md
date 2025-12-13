@@ -111,7 +111,6 @@ Columns: Method, All triples, Real triples, Precision, F1, N
 
 - Scenario 1: ~6-8 minutes (6 methods)
 - Scenario 2: ~7-9 minutes (6 methods)
-- Single method: ~2-3 seconds
 
 ### Wrong metric values
 Verify:

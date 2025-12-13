@@ -1,6 +1,5 @@
 # BayScen: Realistic and Comprehensive Scenario Generation for Autonomous Vehicle Testing via Bayesian Networks
 
-[![Paper](https://img.shields.io/badge/Paper-ICST%202026-blue)](https://anonymous.4open.science/)
 [![CARLA](https://img.shields.io/badge/CARLA-0.9.10-green)](https://carla.readthedocs.io/en/0.9.10/)
 [![Python](https://img.shields.io/badge/Python-3.7+-orange)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
@@ -24,48 +23,13 @@ BayScen is a novel scenario generation framework for autonomous vehicle (AV) tes
 
 | Metric | BayScen | Best Baseline | Improvement |
 |--------|---------|---------------|-------------|
-| Critical Scenarios (TTC < 0.5s) | **21-28%** | 2-3% | **7-14×** |
-| Collision Detection (≥2/3 runs) | **19-29%** | 5-7% | **3-4×** |
-| Realism (Critical Events) | **71-76%** | 34-44% | **1.7-2.2×** |
-| 3-Way Coverage F1 Score | **0.99-1.00** | 0.47-0.84 | **Complete** |
-
----
-
-## 🚀 Quick Start
-
-### Prerequisites
-
-- **OS**: Windows 10/11 (for CARLA simulation)
-- **GPU**: CUDA-capable GPU
-- **Python**: 3.7+
-- **Anaconda**: Latest version
-
-### Installation (5 minutes)
-```bash
-# Clone repository
-git clone [REPOSITORY_URL]
-cd BayScen
-
-# Create environment
-conda env create -f environment.yml
-conda activate bayscen
-```
-
-### Generate Scenarios (2 minutes)
-```bash
-# Generate scenarios for Scenario 1 (Vehicle-Vehicle)
-cd bayscen/generation
-python generate_scenarios.py --scenario 1 --mode rare
-
-# Output: generated_scenarios/scenario1_rare_scenarios.csv
-```
-
-### Run Complete Evaluation (Optional, 6-8 hours)
-```bash
-# See experiments/README.md for full CARLA setup
-cd experiments
-python evaluate.py --scenario 1
-```
+| Critical Scenarios (TTC < 0.5s) | **2.3-3.9%** | 1.9-3.6% | **Up to 2.1×** |
+| Collision Detection (≥2/3 runs) | **4.9-5.4%** | 5.2-6.8% | **Comparable** |
+| Realism (Critical Events) | **73-88%** | 31-67% | **Up to 2.8×** |
+| Overall Scenario Realism | **83.5-90.7%** | 29.5-47.9% | **Up to 3.1×** |
+| Collision Realism | **78.1-88.6%** | 30.0-46.2% | **Up to 3.0×** |
+| 3-Way Coverage F1 Score | **0.86-0.88** | 0.35-0.73 | **+18-53%** |
+| 3-Way Coverage Precision | **79.5-88.0%** | 49.7-57.6% | **Up to 1.8×** |
 
 ---
 
@@ -84,7 +48,7 @@ BayScen/
 │
 ├── 📂 baselines/                  # Baseline method implementations
 │   ├── PICT/                      # Pairwise & 3-way combinatorial testing
-│   ├── CTBC/                      # Combinatorial testing with base choice
+│   ├── CTBC/                      # Combinatorial Testing Based on Complexity
 │   └── SitCov_and_Random/         # Coverage-based & random sampling
 │
 ├── 📂 experiments/                # CARLA simulation experiments
@@ -167,7 +131,7 @@ Each module contains detailed documentation:
 |--------|---------|---------------|
 | `bayscen/` | Core framework | [README](bayscen/README.md) |
 | `data/` | Real-world data collection | [README](data/README.md) |
-| `baselines/` | Baseline implementations | [PICT](baselines/PICT/README.md), [CTBC](baselines/CTBC/README.md), [SitCov](baselines/SitCov_and_Random/README.md) |
+| `baselines/` | Baseline implementations | [PICT](baselines/PICT/README.md), [CTBC](baselines/CTBC/README.md), [SitCov](baselines/SitCov and Random/README.md) |
 | `experiments/` | CARLA simulation setup | [README](experiments/README.md) |
 | `evaluation/` | Metrics & analysis | [README](evaluation/README.md) |
 
@@ -202,34 +166,6 @@ All baseline implementations are included for complete reproducibility:
 - **Strategy**: Uniform random sampling
 - **Tests**: 648 scenarios
 - **Folder**: `baselines/SitCov_and_Random/`
-
----
-
-## 📝 Citation
-
-If you use BayScen in your research, please cite:
-```bibtex
-@inproceedings{bayscen2026,
-  title={BayScen: Bayesian Network-Based Scenario Generation for Autonomous Vehicle Testing},
-  author={Anonymous},
-  booktitle={International Conference on Software Testing, Verification and Validation (ICST)},
-  year={2026},
-  note={Under Review}
-}
-```
-
-**Related Work:**
-```bibtex
-@inproceedings{tahir2021intersection,
-  title={Intersection focused situation coverage-based verification and validation framework for autonomous vehicles implemented in CARLA},
-  author={Tahir, Zaid and Alexander, Rob},
-  booktitle={International Conference on Modelling and Simulation for Autonomous Systems},
-  pages={191--212},
-  year={2021},
-  organization={Springer}
-}
-```
-
 ---
 
 ## Support
