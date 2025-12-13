@@ -1,0 +1,926 @@
+[
+    {
+        "collision_occurred": false,
+        "run_duration": 403.10189151763916
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 410.37437415122986
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 402.80224347114563
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 399.8104326725006
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 405.79541397094727
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 402.7016942501068
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 396.9127125740051
+    },
+    {
+        "collision_occurred": true,
+        "run_duration": 222.15537285804749
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 401.8067960739136
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 404.88335824012756
+    },
+    {
+        "collision_occurred": true,
+        "run_duration": 233.04304003715515
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 415.9934446811676
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 278.452335357666
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 255.45594382286072
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 256.9476418495178
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 258.8261651992798
+    },
+    {
+        "collision_occurred": true,
+        "run_duration": 161.91812181472778
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 255.688312292099
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 261.85120248794556
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 253.58054089546204
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 262.58630180358887
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 261.1072542667389
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 263.4086880683899
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 258.8128116130829
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 260.77037525177
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 262.32622504234314
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 258.3775737285614
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 269.50272393226624
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 258.7002091407776
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 262.513484954834
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 258.277046918869
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 263.57487297058105
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 266.10570073127747
+    },
+    {
+        "collision_occurred": true,
+        "run_duration": 161.99345684051514
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 258.05366373062134
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 258.1369740962982
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 255.8153727054596
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 257.6092474460602
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 259.6024181842804
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 271.07830333709717
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 260.98122692108154
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 256.9077181816101
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 263.27405405044556
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 254.5441825389862
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 260.5503799915314
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 273.65306997299194
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 263.68554186820984
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 253.33121585845947
+    },
+    {
+        "collision_occurred": true,
+        "run_duration": 133.10556316375732
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 259.79426169395447
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 255.1110007762909
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 260.9189796447754
+    },
+    {
+        "collision_occurred": true,
+        "run_duration": 172.9937081336975
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 266.5126299858093
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 257.3492977619171
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 261.6511318683624
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 258.70764207839966
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 266.9964933395386
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 257.04386472702026
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 257.3902077674866
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 254.5491588115692
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 255.73277163505554
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 261.2114963531494
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 263.4473035335541
+    },
+    {
+        "collision_occurred": true,
+        "run_duration": 153.459486246109
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 259.27800488471985
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 264.98952317237854
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 257.6468629837036
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 260.23982763290405
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 257.2879066467285
+    },
+    {
+        "collision_occurred": true,
+        "run_duration": 181.79413175582886
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 262.7324640750885
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 254.33976864814758
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 257.3002495765686
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 264.2649645805359
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 265.3608467578888
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 256.9651997089386
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 260.98512411117554
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 259.747891664505
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 268.58713555336
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 254.605126619339
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 258.220294713974
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 258.4423599243164
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 269.60262084007263
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 253.9009494781494
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 258.4725692272186
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 251.02014899253845
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 264.3354015350342
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 256.27979254722595
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 260.9724295139313
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 258.9995701313019
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 267.80989360809326
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 259.17294430732727
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 254.44104409217834
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 260.49483847618103
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 265.11654257774353
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 255.1539011001587
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 255.38566517829895
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 257.7462809085846
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 263.63659596443176
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 256.3258361816406
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 261.8720920085907
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 266.21900510787964
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 270.2520170211792
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 255.37119793891907
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 258.615939617157
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 260.2120831012726
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 267.72221875190735
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 257.8746817111969
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 258.7561979293823
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 256.80348777770996
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 265.8390908241272
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 258.60441040992737
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 258.3071596622467
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 259.8147885799408
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 265.9146149158478
+    },
+    {
+        "collision_occurred": true,
+        "run_duration": 200.12773823738098
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 259.2849543094635
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 264.6032922267914
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 263.8750648498535
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 262.522812128067
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 267.3574368953705
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 263.84123253822327
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 264.67193508148193
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 258.40344309806824
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 255.88878393173218
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 260.540323972702
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 273.90892267227173
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 253.0147819519043
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 258.7097110748291
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 262.81573152542114
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 265.16188526153564
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 255.49444198608398
+    },
+    {
+        "collision_occurred": true,
+        "run_duration": 133.862783908844
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 265.8903577327728
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 271.76946091651917
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 261.93290996551514
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 260.52850365638733
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 258.70705795288086
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 269.56205701828003
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 266.0418665409088
+    },
+    {
+        "collision_occurred": true,
+        "run_duration": 147.71671533584595
+    },
+    {
+        "collision_occurred": true,
+        "run_duration": 141.01008319854736
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 266.810045003891
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 256.5802240371704
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 256.9037780761719
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 265.10721611976624
+    },
+    {
+        "collision_occurred": true,
+        "run_duration": 196.6870241165161
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 260.54313015937805
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 268.1004550457001
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 335.82135701179504
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 335.0003879070282
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 339.3262040615082
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 342.1397182941437
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 346.9123191833496
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 330.3824095726013
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 333.9902925491333
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 335.89775490760803
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 338.2178750038147
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 333.2405812740326
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 340.95185256004333
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 340.7447235584259
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 335.4935495853424
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 335.519437789917
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 324.67862343788147
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 318.38991808891296
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 334.63792300224304
+    },
+    {
+        "collision_occurred": true,
+        "run_duration": 196.34972953796387
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 325.17219281196594
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 325.65032863616943
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 333.0817997455597
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 331.602952003479
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 332.8930826187134
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 330.2086102962494
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 345.4220860004425
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 328.2852599620819
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 329.98619389533997
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 339.630487203598
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 347.402024269104
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 334.78922867774963
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 333.9744129180908
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 333.9365978240967
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 349.5550389289856
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 337.9133131504059
+    },
+    {
+        "collision_occurred": true,
+        "run_duration": 176.33041858673096
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 337.5812373161316
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 333.42320466041565
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 335.5750584602356
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 347.70907497406006
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 324.24133801460266
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 330.201847076416
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 330.34679341316223
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 334.0391731262207
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 344.323025226593
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 348.0650260448456
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 331.2678532600403
+    },
+    {
+        "collision_occurred": true,
+        "run_duration": 183.33716678619385
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 334.0774586200714
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 351.01834869384766
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 338.40753626823425
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 329.9762861728668
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 327.0946524143219
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 329.5893177986145
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 325.86841464042664
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 345.85199093818665
+    },
+    {
+        "collision_occurred": true,
+        "run_duration": 195.96930861473083
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 338.1125764846802
+    },
+    {
+        "collision_occurred": true,
+        "run_duration": 180.5979597568512
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 338.15885162353516
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 333.6721887588501
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 321.7509140968323
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 329.326779127121
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 327.5140771865845
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 350.043888092041
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 324.2742006778717
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 329.59768438339233
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 324.54508209228516
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 331.2198021411896
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 325.0760586261749
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 337.7116026878357
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 364.55601692199707
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 335.32877230644226
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 347.15272331237793
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 352.2301275730133
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 345.43142795562744
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 333.9007544517517
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 327.0289044380188
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 333.14340257644653
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 337.24277687072754
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 333.41876125335693
+    },
+    {
+        "collision_occurred": false,
+        "run_duration": 328.8432776927948
+    }
+]

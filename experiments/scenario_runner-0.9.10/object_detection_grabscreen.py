@@ -48,41 +48,43 @@ physical_devices = tf.config.experimental.list_physical_devices('GPU')
 assert len(physical_devices) > 0, "Not enough GPU hardware devices available"
 tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
-
-# try:
-# 	tf.config.gpu.set_per_process_memory_fraction(0.75)
-# 	#tf.config.gpu.set_per_process_memory_growth(True)
-# except:
-#   # Invalid device or cannot modify virtual devices once initialized.
-# 	print("couldn't set_per_process_memory_fraction")
-
-
-
 def load_model3(model_name):
-  base_url = 'http://download.tensorflow.org/models/object_detection/'
-  model_file = model_name + '.tar.gz'
-  dir_loc = 'C://Users//BH280005//Documents//Carla10//WindowsNoEditor//scenario_runner-0.9.10//models//research//object_detection//models//'
-
-  model_dir = tf.keras.utils.get_file(
-    fname= dir_loc + model_name, 
-    origin=base_url + model_file,
-    untar=True,
-    cache_dir=dir_loc)
+    base_url = 'http://download.tensorflow.org/models/object_detection/'
+    model_file = model_name + '.tar.gz'
     
+    # --- DYNAMIC PATH CALCULATION ---
+    # Get the directory of the current script (.../scenario_runner-0.9.10)
+    base_path = os.path.dirname(os.path.abspath(__file__))
+    
+    # Construct path: .../scenario_runner-0.9.10/models/research/object_detection/models/
+    dir_loc = os.path.join(base_path, 'models', 'research', 'object_detection', 'models')
+    
+    # Create the directory if it doesn't exist
+    if not os.path.exists(dir_loc):
+        os.makedirs(dir_loc)
+    # --------------------------------
 
-   
-  print(model_dir)
+    # Download and extract the model
+    # cache_subdir='' ensures it saves directly in dir_loc, not dir_loc/datasets/
+    downloaded_file_path = tf.keras.utils.get_file(
+        fname=model_name + '.tar.gz', 
+        origin=base_url + model_file,
+        untar=True,
+        cache_dir=dir_loc,
+        cache_subdir='' 
+    )
+    
+    print(f"Downloaded to: {downloaded_file_path}")
 
-  model_dir = pathlib.Path(model_dir)/"saved_model"
-  #model_dir = str(pathlib.Path(model_dir))
- 
-  #model_dir = model_dir + "//" + "saved_model"
- 
-  print(model_dir)
+    # Construct path to the saved_model folder
+    # When untarred, TF usually creates a folder with the same name as model_name
+    model_dir = pathlib.Path(dir_loc) / model_name / "saved_model"
+    
+    print(f"Loading model from: {model_dir}")
 
-  model = tf.saved_model.load(str(model_dir))
+    model = tf.saved_model.load(str(model_dir))
 
-  return model
+    return model
 
 # List of the strings that is used to add correct label for each box.
 PATH_TO_LABELS = 'models/research/object_detection/data/mscoco_label_map.pbtxt'

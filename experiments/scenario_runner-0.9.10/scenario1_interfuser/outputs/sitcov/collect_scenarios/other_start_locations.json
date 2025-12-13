@@ -1,0 +1,1946 @@
+[
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "left"
+    },
+    {
+        "other_start_location": "base"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "right"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    },
+    {
+        "other_start_location": "base_left_lane"
+    }
+]

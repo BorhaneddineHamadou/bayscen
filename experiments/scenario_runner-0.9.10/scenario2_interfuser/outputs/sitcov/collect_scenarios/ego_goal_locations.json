@@ -1,0 +1,1946 @@
+[
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "base"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    },
+    {
+        "ego_goal_location": "left"
+    },
+    {
+        "ego_goal_location": "right"
+    }
+]

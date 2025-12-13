@@ -1,6 +1,5 @@
 import os
 
-
 class GlobalConfig:
     """base architecture configurations"""
 
@@ -22,7 +21,18 @@ class GlobalConfig:
 
     max_speed = 5
     collision_buffer = [2.5, 1.2]
-    model_path = "C:/Users/BH280005/Documents/Carla10/WindowsNoEditor/InterFuser/leaderboard/team_code/interfuser.pth.tar"
+    
+    # --- DYNAMIC PATH CALCULATION ---
+    # 1. Get the folder containing this config file (.../scenario_runner-0.9.10)
+    _current_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # 2. Go up one level to the main root (.../WindowsNoEditor)
+    _root_dir = os.path.dirname(_current_dir)
+    
+    # 3. Construct the path to the model in the InterFuser folder
+    model_path = os.path.join(_root_dir, "InterFuser", "leaderboard", "team_code", "interfuser.pth.tar")
+    # --------------------------------
+
     momentum = 0
     skip_frames = 1
     detect_threshold = 0.04
@@ -32,3 +42,7 @@ class GlobalConfig:
     def __init__(self, **kwargs):
         for k, v in kwargs.items():
             setattr(self, k, v)
+        
+        # specific check to ensure path exists, helpful for debugging
+        if not os.path.exists(self.model_path):
+            print(f"WARNING: Model path not found at: {self.model_path}")
