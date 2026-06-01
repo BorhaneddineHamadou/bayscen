@@ -1,0 +1,3 @@
+Row,timeofday,startego,goalego,startother,goalother,roadfriction,fogdensity,precipitation,precipitationdeposits,cloudiness,windintensity,wetness,fogdistance
+Z_{1},0.0073,-0.8389,0.9131,-0.1339,0.7337,-0.1453,-0.0486,0.1969,-0.0334,0.0424,0.0072,0.0824,-0.0126
+Z_{2},-0.0396,0.3217,0.7012,-1.252,1.0467,-0.023,0.0414,0.1049,-0.1407,0.139,0.1634,0.0651,0.0964

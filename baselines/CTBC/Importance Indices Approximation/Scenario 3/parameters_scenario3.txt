@@ -1,0 +1,10 @@
+direction_left,0.022231 direction_right,0.012431
+cloudiness_0,0.030612 cloudiness_20,0.021375 cloudiness_40,0.016184 cloudiness_60,0.010902 cloudiness_80,0.005944 cloudiness_100,0.017793
+precipitation_0,0.000000 precipitation_20,0.011656 precipitation_40,0.011810 precipitation_60,0.013006 precipitation_80,0.018899 precipitation_100,0.057653
+precipitationdeposits_0,0.025158 precipitationdeposits_20,0.030812 precipitationdeposits_40,0.000000 precipitationdeposits_60,0.012026 precipitationdeposits_80,0.018099 precipitationdeposits_100,0.011344
+windintensity_0,0.000000 windintensity_20,0.025585 windintensity_40,0.014724 windintensity_60,0.005745 windintensity_80,0.043982 windintensity_100,0.010685
+timeofday_-90,0.031127 timeofday_-60,0.027905 timeofday_-30,0.006731 timeofday_0,0.006858 timeofday_30,0.043502 timeofday_60,0.000000 timeofday_90,0.000000
+fogdensity_0,0.003518 fogdensity_20,0.012021 fogdensity_40,0.040271 fogdensity_60,0.013605 fogdensity_80,0.006151 fogdensity_100,0.035533
+fogdistance_0,0.040156 fogdistance_20,0.023829 fogdistance_40,0.013880 fogdistance_60,0.017004 fogdistance_80,0.012250 fogdistance_100,0.003611
+wetness_0,0.023425 wetness_20,0.031049 wetness_40,0.005359 wetness_60,0.012429 wetness_80,0.006099 wetness_100,0.022954
+roadfriction_0.0,0.000000 roadfriction_0.1,0.024555 roadfriction_0.2,0.012619 roadfriction_0.4,0.048574 roadfriction_0.6,0.010778 roadfriction_0.8,0.003845 roadfriction_1.0,0.011707

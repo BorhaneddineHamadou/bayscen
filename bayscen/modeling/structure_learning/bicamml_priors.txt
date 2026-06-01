@@ -1,0 +1,166 @@
+# Bi-CaMML Expert Priors for BayScen
+# 
+# This file contains the expert priors used for Bayesian Network structure learning
+# using Bi-CaMML (Bayesian Causal MML).
+#
+# These priors are derived from GPT-4 LLM analysis of causal relationships
+# in autonomous vehicle weather/road scenarios (see llm_prompts.md).
+#
+# Reference: Ban et al. (2025). "Integrating large language model for improved 
+# causal discovery." IEEE Transactions on Artificial Intelligence.
+#
+# ============================================================================
+
+# =============================================================================
+# CONFIGURATION FOR SCENARIO 2 (Vehicle-Cyclist with Time_of_Day)
+# =============================================================================
+
+set {
+	// Configuration parameters
+	// Can specify number of variables: n=10;
+	// May specify tier prior (defaults to 1.0): tierPrior = 0.9;
+	// May specify edit distance (ed) prior (defaults to ~0.73)
+	// May specify KT prior (defaults to ~0.73)
+	
+	// Using default values - no overrides needed
+}
+
+ed {
+	// Edit Distance Prior (Optional)
+	// Prior in format of edit distance from specified network or partial network
+	// Prior based on edit distance from this network
+	
+	// Not used in BayScen - we rely on tier and arc constraints
+	// Example format: a -> b; a -> c; b -> d; c -> d;
+}
+
+// Use kt { ... } for Kendall Tau (KT) prior
+// KT prior - effectively 'bubble sort distance' between two total orderings
+// Minimal KT distance added to undirected edit distance to determine prior
+// Not used in BayScen
+
+tier {
+	// Temporal Ordering Constraints
+	// =============================
+	// Format: 'A B C < D E F < G H I;'
+	// Meaning: A,B,C occur before D,E,F in causal time
+	// (i.e., A can be a parent of D, but D cannot be a parent of A)
+	
+	// BayScen Temporal Ordering:
+	// 1. Time_of_Day: Most upstream - influences diurnal weather patterns
+	// 2. Weather formation: Cloudiness, Wind, Precipitation
+	// 3. Atmospheric effects: Fog formation and visibility
+	// 4. Surface effects: Wetness and deposits accumulate
+	// 5. Road properties: Friction is final downstream effect
+	
+	Time_of_Day < Cloudiness Wind_Intensity Precipitation < Fog_Density Fog_Distance < Wetness Precipitation_Deposits < Road_Friction;
+}
+
+arcs {
+	// Individual Arc Constraints
+	// ==========================
+	// Format: 'A -> B 0.7;' where 0.7 is probability of arc existing
+	
+	// Available arc types:
+	// - Directed: A -> B or B <- A (parent-child relationship)
+	// - Undirected: A -- B (connected but direction unknown)
+	// - Ancestor: A => B or B <= A (A is ancestor of B, can be indirect)
+	// - Correlated: A == B (variables are associated)
+	// - Tier: A << B or B >> A (temporal ordering)
+	
+	// ========================================================================
+	// STRONG CAUSAL RELATIONSHIPS (0.99999 = very high confidence)
+	// ========================================================================
+	// These represent direct physical/meteorological causation validated by LLM
+	
+	// Precipitation Effects
+	// ---------------------
+	Precipitation=>Wetness 0.99999;
+	// Precipitation directly causes water accumulation on road surfaces
+	
+	Precipitation=>Precipitation_Deposits 0.99999;
+	// Precipitation directly causes accumulation of water/snow/ice deposits
+	
+	// Friction Determinants
+	// ---------------------
+	Wetness=>Road_Friction 0.99999;
+	// Water on road surfaces reduces tire-road contact friction
+	
+	Precipitation_Deposits=>Road_Friction 0.99999;
+	// Accumulated deposits (snow, ice, water) reduce available friction
+	
+	// Fog Relationships
+	// -----------------
+	Fog_Density=>Fog_Distance 0.99999;
+	// Fog density inversely determines visibility distance
+	// Higher density = lower visibility distance
+	
+	// Wind Effects
+	// ------------
+	Wind_Intensity=>Precipitation_Deposits 0.99999;
+	// Wind affects how precipitation accumulates and redistributes
+	// Can cause drifting snow or uneven water distribution
+	
+	Wind_Intensity=>Fog_Density 0.99999;
+	// Wind disperses fog, reducing density
+	// Strong wind = less fog density
+	
+	// Temporal/Diurnal Effects (Scenario 2 only)
+	// -------------------------------------------
+	Time_of_Day=>Fog_Density 0.99999;
+	// Time of day affects fog formation (radiation fog at night/morning)
+	// Temperature variations throughout day influence fog density
+	
+	// ========================================================================
+	// NOTES ON CONSTRAINT INTERPRETATION
+	// ========================================================================
+	
+	// Ancestral Constraints (=>) vs Direct Arcs (->)
+	// -----------------------------------------------
+	// We use => (ancestral) rather than -> (direct) because:
+	// 1. Allows both direct and indirect causal paths
+	// 2. More robust to structural variations
+	// 3. Follows Bi-CaMML recommendations for LLM-derived priors
+	
+	// Probability Values (0.99999)
+	// ----------------------------
+	// 0.99999 = very strong prior belief (but not 1.0)
+	// - Leaves room for data to override if evidence is overwhelming
+	// - Prevents hard constraints that could force invalid structures
+	// - Follows error-tolerant LLM-guided framework
+	
+	// Why These Specific Arcs?
+	// -------------------------
+	// These arcs represent:
+	// 1. Direct physical causation (validated by domain experts)
+	// 2. High confidence from LLM analysis
+	// 3. Relationships that should NOT be data-driven
+	//    (e.g., friction doesn't cause wetness - that's reverse)
+	
+	// What's NOT Included?
+	// --------------------
+	// Many valid causal relationships are NOT listed here because:
+	// 1. They're uncertain enough that data should decide
+	// 2. They're indirect (mediated through other variables)
+	// 3. LLM was uncertain or gave conflicting information
+	
+	// Examples of omitted edges:
+	// - Cloudiness->Fog_Density (less direct, can go via other paths)
+	// - Precipitation->Road_Friction (indirect via wetness/deposits)
+	// - Time_of_Day->Cloudiness (less certain, let data decide)
+}
+
+# =============================================================================
+# USAGE INSTRUCTIONS
+# =============================================================================
+#
+# 1. Open Bi-CaMML software
+# 2. Load dataset: data/processed/bn_training_data.csv
+# 3. Navigate to "Expert Priors" tab
+# 4. Copy and paste the relevant sections above:
+#    - set { } block
+#    - tier { } block  
+#    - arcs { } block
+# 5. Run structure learning
+# 6. Save learned structure to learned_structures/
+# =============================================================================

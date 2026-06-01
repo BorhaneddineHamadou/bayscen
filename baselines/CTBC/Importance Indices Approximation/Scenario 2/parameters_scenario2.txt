@@ -1,0 +1,10 @@
+Cloudiness_0,0.027703 Cloudiness_20,0.013631 Cloudiness_40,0.018852 Cloudiness_60,0.010224 Cloudiness_80,0.017704 Cloudiness_100,0.018605
+FogDensity_0,0.004741 FogDensity_20,0.010301 FogDensity_40,0.020812 FogDensity_60,0.018364 FogDensity_80,0.011526 FogDensity_100,0.031613
+FogDistance_0,0.025748 FogDistance_20,0.019344 FogDistance_40,0.024398 FogDistance_60,0.010560 FogDistance_80,0.011526 FogDistance_100,0.014130
+PathInteraction_c1,0.017398 PathInteraction_c2,0.017074 PathInteraction_c4,0.024370
+Precipitation_0,0.029535 Precipitation_20,0.016333 Precipitation_40,0.015244 Precipitation_60,0.011353 Precipitation_80,0.011341 Precipitation_100,0.014508
+PrecipitationDeposits_0,0.025803 PrecipitationDeposits_20,0.013028 PrecipitationDeposits_40,0.015494 PrecipitationDeposits_60,0.020369 PrecipitationDeposits_80,0.023358 PrecipitationDeposits_100,0.008553
+RoadFriction_0.1,0.015199 RoadFriction_0.2,0.019354 RoadFriction_0.4,0.009478 RoadFriction_0.6,0.010273 RoadFriction_0.8,0.020936 RoadFriction_1.0,0.027769
+TimeOfDay_-90,0.014676 TimeOfDay_-60,0.029123 TimeOfDay_-30,0.018752 TimeOfDay_0,0.014923 TimeOfDay_30,0.014907 TimeOfDay_60,0.014224 TimeOfDay_90,0.012871
+Wetness_0,0.026669 Wetness_20,0.011500 Wetness_40,0.017945 Wetness_60,0.017184 Wetness_80,0.007976 Wetness_100,0.023310
+WindIntensity_0,0.028942 WindIntensity_20,0.014691 WindIntensity_40,0.009949 WindIntensity_60,0.019564 WindIntensity_80,0.010019 WindIntensity_100,0.016225

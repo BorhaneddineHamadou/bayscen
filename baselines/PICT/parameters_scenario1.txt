@@ -1,0 +1,28 @@
+PathInteraction: c1, c2, c4
+StartEgo: Left, Right, Base
+GoalEgo: Left, Right, Base
+StartOther: Left, Right, Base
+GoalOther: Left, Right, Base
+RoadFriction: 0.1, 0.2, 0.4, 0.6, 0.8, 1
+FogDensity: 0, 20, 40, 60, 80, 100
+Precipitation: 0, 20, 40, 60, 80, 100
+PrecipitationDeposits: 0, 20, 40, 60, 80, 100
+Cloudiness: 0, 20, 40, 60, 80, 100
+WindIntensity: 0, 20, 40, 60, 80, 100
+Wetness: 0, 20, 40, 60, 80, 100
+FogDistance: 0, 20, 40, 60, 80, 100
+IF [PathInteraction] = "c1" THEN 
+    ([StartEgo] = "Left" AND [GoalEgo] = "Right" AND [StartOther] = "Base" AND [GoalOther] = "Left") OR
+    ([StartEgo] = "Left" AND [GoalEgo] = "Right" AND [StartOther] = "Base" AND [GoalOther] = "Right") OR
+    ([StartEgo] = "Base" AND [GoalEgo] = "Left" AND [StartOther] = "Left" AND [GoalOther] = "Right") OR
+    ([StartEgo] = "Base" AND [GoalEgo] = "Right" AND [StartOther] = "Left" AND [GoalOther] = "Right");
+IF [PathInteraction] = "c2" THEN 
+    ([StartEgo] = "Right" AND [GoalEgo] = "Left" AND [StartOther] = "Base" AND [GoalOther] = "Left") OR
+    ([StartEgo] = "Right" AND [GoalEgo] = "Base" AND [StartOther] = "Base" AND [GoalOther] = "Left") OR
+    ([StartEgo] = "Base" AND [GoalEgo] = "Left" AND [StartOther] = "Right" AND [GoalOther] = "Left") OR
+    ([StartEgo] = "Base" AND [GoalEgo] = "Left" AND [StartOther] = "Right" AND [GoalOther] = "Base");
+IF [PathInteraction] = "c4" THEN 
+    ([StartEgo] = "Left" AND [GoalEgo] = "Right" AND [StartOther] = "Right" AND [GoalOther] = "Base") OR
+    ([StartEgo] = "Left" AND [GoalEgo] = "Base" AND [StartOther] = "Right" AND [GoalOther] = "Base") OR
+    ([StartEgo] = "Right" AND [GoalEgo] = "Base" AND [StartOther] = "Left" AND [GoalOther] = "Right") OR
+    ([StartEgo] = "Right" AND [GoalEgo] = "Base" AND [StartOther] = "Left" AND [GoalOther] = "Base");

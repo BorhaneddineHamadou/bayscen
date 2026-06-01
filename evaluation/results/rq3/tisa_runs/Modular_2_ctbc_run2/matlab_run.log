@@ -1,0 +1,458 @@
+
+	Trial License -- for use to evaluate programs for possible purchase as an end-user only.
+
+-------------------------------------------------------------------------
+ 
+ 'trainIS.m' 
+ 
+ Code by: Mario Andres Mu�oz Acosta
+          School of Mathematics and Statistics
+          The University of Melbourne
+          Australia
+          2019
+ 
+ Copyright: Mario A. Mu�oz
+ 
+-------------------------------------------------------------------------
+ 
+ If using this software, please cite as: 
+ 
+ Mario Andr�s Mu�oz, & Kate Smith-Miles.  andremun/InstanceSpace: February 2021 Update (Version v0.2-beta).  Zenodo. http://doi.org/10.5281/zenodo.4521336
+ 
+-------------------------------------------------------------------------
+ 
+ DISCLAIMER:
+ 
+ THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+ APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+ HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
+ OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+ THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+ IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+ ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+ 
+ IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+ WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
+ THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
+ GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
+ USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
+ DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
+ PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
+ EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGES.
+ 
+Root Directory: C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_ctbc_run2/
+-------------------------------------------------------------------------
+-> Listing options to be used:
+parallel
+      flag: 0
+    ncores: 1
+
+perf
+          MaxPerf: 0
+          AbsPerf: 1
+          epsilon: 0.5000
+    betaThreshold: 0.5500
+
+auto
+    preproc: 1
+
+bound
+    flag: 1
+
+norm
+    flag: 1
+
+sifted
+          flag: 0
+           rho: 0.1000
+             K: 10
+        NTREES: 50
+       MaxIter: 1000
+    Replicates: 100
+
+pilot
+    analytic: 0
+      ntries: 5
+
+cloister
+      pval: 0.0500
+    cthres: 0.7000
+
+trace
+    usesim: 0
+        PI: 0.5500
+
+selvars
+    smallscaleflag: 0
+        smallscale: 0.5000
+       fileidxflag: 0
+           fileidx: ''
+       densityflag: 0
+       mindistance: 0.1000
+
+outputs
+    csv: 1
+    web: 0
+    png: 1
+
+-------------------------------------------------------------------------
+-> Loading the data.
+total number of instances165
+-------------------------------------------------------------------------
+-> Calculating the binary measure of performance
+-> An algorithm is good if its performace is less than 0.5
+-> For 0% of the instances there is more than one best algorithm. Random selection is used to break ties.
+=========================================================================
+-> Auto-pre-processing.
+=========================================================================
+-> Removing extreme outliers from the feature values.
+-> Auto-normalizing the data using Box-Cox and Z transformations.
+-------------------------------------------------------------------------
+-> Using the complete set of the instances.
+=========================================================================
+-> Calling PILOT to find the optimal projection.
+=========================================================================
+  -> PILOT is using a random starting points for BFGS.
+-------------------------------------------------------------------------
+  -> PILOT is solving numerically the projection problem.
+  -> This may take a while. Trials will not be run sequentially.
+-------------------------------------------------------------------------
+    -> PILOT has completed trial 5
+    -> PILOT has completed trial 4
+    -> PILOT has completed trial 3
+    -> PILOT has completed trial 2
+    -> PILOT has completed trial 1
+-------------------------------------------------------------------------
+  -> PILOT has completed. The projection matrix A is:
+ 
+  Columns 1 through 9
+
+    {0�0 double}    {'timeofday'}    {'startego'}    {'goalego'}    {'startother'}    {'goalother'}    {'roadfriction'}    {'fogdensity'}    {'precipitation'}
+    {'Z_{1}'   }    {[  -0.1616]}    {[  0.6255]}    {[-0.5160]}    {[   -0.2055]}    {[  -0.1013]}    {[      0.2387]}    {[    0.1634]}    {[      -0.3714]}
+    {'Z_{2}'   }    {[  -0.1845]}    {[ -0.4974]}    {[ 0.2092]}    {[    0.6573]}    {[  -0.3063]}    {[      0.1881]}    {[    0.1203]}    {[      -0.1680]}
+
+  Columns 10 through 14
+
+    {'precipitationdep'}    {'cloudiness'}    {'windintensity'}    {'wetness'}    {'fogdistance'}
+    {[          -0.2835]}    {[   -0.3773]}    {[      -0.3852]}    {[-0.4406]}    {[    -0.2848]}
+    {[          -0.1894]}    {[   -0.1248]}    {[      -0.1834]}    {[-0.0353]}    {[    -0.2703]}
+
+=========================================================================
+-> Finding empirical bounds using CLOISTER.
+=========================================================================
+  -> CLOISTER is using correlation to estimate a boundary for the space.
+-------------------------------------------------------------------------
+  -> CLOISTER has completed.
+=========================================================================
+-> Calling TRACE to perform the footprint analysis.
+=========================================================================
+  -> TRACE will use experimental data to calculate the footprints.
+  -> TRACE is calculating the space area and density.
+    -> Space area: 25.372 | Space density: 6.3062
+-------------------------------------------------------------------------
+  -> TRACE is calculating the algorithm footprints.
+    -> Good performance footprint for 'safety'
+   24.0835
+
+    -> Best performance footprint for 'safety'
+   25.3720
+
+    -> Algorithm 'safety' completed. Elapsed time: 0.09s
+-------------------------------------------------------------------------
+  -> TRACE is detecting and removing contradictory sections of the footprints.
+  -> Base algorithm 'safety'
+  -> Base algorithm 'safety' completed. Elapsed time: 0.00s
+-------------------------------------------------------------------------
+  -> TRACE is calculating the beta-footprint.
+-------------------------------------------------------------------------
+  -> TRACE is preparing the summary table.
+area good
+   24.0835
+
+area good
+   25.3720
+
+  -> TRACE has completed. Footprint analysis results:
+ 
+  Columns 1 through 8
+
+    {0�0 double}    {'Area_Good'}    {'Area_Good_Normal'}    {'Density_Good'}    {'Density_Good_Nor'}    {'Purity_Good'}    {'Area_Best'}    {'Area_Best_Normal'}
+    {'safety'  }    {[  24.0830]}    {[           0.9490]}    {[      6.4360]}    {[           1.0210]}    {[     0.9350]}    {[  25.3720]}    {[                1]}
+
+  Columns 9 through 11
+
+    {'Density_Best'}    {'Density_Best_Nor'}    {'Purity_Best'}
+    {[      6.3060]}    {[                1]}    {[          1]}
+
+-------------------------------------------------------------------------
+-> Storing the raw MATLAB results for post-processing and/or debugging.
+=========================================================================
+-> Writing the data on CSV files for posterior analysis.
+summary data
+    {[24.0830]}
+
+=========================================================================
+-> Producing the plots.
+No SVM model has been trained
+area of boundary: 63.8208
+area of prunned boundary: 63.8208
+final trace data structure
+    {'C:/Users/BH28000'}    {[63.8208]}    {[63.8208]}    {[25.3720]}    {[39.7550]}    {[39.7550]}    {[6.3062]}    {[24.0830]}
+
+                                               Rootdir                                               Boundary_area    prunedBoundaryArea    Footprint_area    COV_boundary    COV_prunnedBoundary    Footprint_density    Good_footprint_area
+    _____________________________________________________________________________________________    _____________    __________________    ______________    ____________    ___________________    _________________    ___________________
+
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_avfuzzer_run1/'      }        32.172             32.172              16.948           52.679             52.679                37.527                16.781       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_avfuzzer_run2/'      }        35.053             35.053              16.252           46.365             46.365                39.317                16.147       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_avfuzzer_run3/'      }        42.351             42.351              19.769           46.679             46.679                32.273                18.488       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_bayscen_run1/'       }        47.151              47.08                28.7           60.869              60.96                22.335                27.592       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_bayscen_run2/'       }        53.574             53.573              32.708           61.053             61.054                19.567                32.567       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_bayscen_run3/'       }        41.447             41.401              26.659            64.32             64.391                 24.12                26.422       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_bayscen_common_run1/'}        3.3133             3.3133                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_bayscen_common_run2/'}        6.4692             6.4692                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_bayscen_common_run3/'}         3.294              3.294                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_ctbc_run1/'          }        39.509             38.699              8.5033           21.522             21.973                10.937                 8.448       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_ctbc_run2/'          }        40.332             38.018              6.8345           16.946             17.977                12.876                 7.959       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_ctbc_run3/'          }        39.467             38.629              8.3056           21.045             21.501                11.318                 8.044       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_pict_2way_run1/'     }        26.875             26.875              2.5535           9.5015             9.5015                18.014                 2.237       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_pict_2way_run2/'     }        24.403             24.403              2.3629           9.6828             9.6828                20.737                 1.977       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_pict_2way_run3/'     }        25.898             25.898              2.7211           10.507             10.507                18.743                  1.87       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_pict_3way_run1/'     }        17.211             17.211              1.7197            9.992              9.992                 226.2                 1.508       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_pict_3way_run2/'     }        17.925             17.925              2.0406           11.384             11.384                   197                  1.81       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_pict_3way_run3/'     }        17.036             17.036               1.715           10.067             10.067                231.49                 1.616       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_random_run1/'        }        28.372             28.372              6.5602           23.122             23.122                93.747                 6.464       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_random_run2/'        }        28.114             28.114              6.7795           24.114             24.114                92.485                 6.862       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_random_run3/'        }        28.683             28.683              6.9978           24.397             24.397                89.314                 6.923       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_sitcov_run1/'        }        27.228             27.228              8.7374            32.09              32.09                71.532                 8.509       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_sitcov_run2/'        }        27.142             27.142              8.8439           32.584             32.584                70.105                 8.533       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_sitcov_run3/'        }        27.803             27.803              8.6791           31.217             31.217                71.781                 8.814       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_avfuzzer_run1/'      }        112.03             112.03               51.34           45.829             45.829                 12.33                59.464       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_avfuzzer_run2/'      }         54.11              54.11               27.79           51.359             51.359                23.174                27.682       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_avfuzzer_run3/'      }        44.697             44.697              20.104           44.977             44.977                31.686                19.037       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_bayscen_run1/'       }        52.996             52.756              34.889           65.833             66.133                18.201                33.612       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_bayscen_run2/'       }        54.276             54.028              34.506           63.574             63.866                 18.49                34.457       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_bayscen_run3/'       }        55.128             54.946              34.198           62.034             62.239                18.744                33.335       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_bayscen_common_run1/'}        4.7173             4.7173                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_bayscen_common_run2/'}         4.761              4.761                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_bayscen_common_run3/'}        4.6185             4.6185                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_ctbc_run1/'          }        65.998             65.998              28.529           43.227             43.227                5.6435                 26.04       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_ctbc_run2/'          }        66.946             66.946              26.259           39.224             39.224                6.0932                 26.21       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_ctbc_run3/'          }        64.331             64.331              25.887           40.241             40.241                6.0261                25.757       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_pict_2way_run1/'     }        50.172             50.172              6.7516           13.457             13.457                8.2943                 7.616       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_pict_2way_run2/'     }        50.922             50.922              6.1835           12.143             12.143                8.8946                 6.158       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_pict_2way_run3/'     }        52.501             52.501              7.8712           14.993             14.993                7.2416                 7.054       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_pict_3way_run1/'     }        57.263             57.263              13.627           23.798             23.798                36.837                 13.46       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_pict_3way_run2/'     }        56.189             56.189              13.418            23.88              23.88                37.264                13.021       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_pict_3way_run3/'     }        53.654             53.654              12.244           22.821             22.821                41.244                12.616       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_random_run1/'        }        68.702             68.702              16.575           24.126             24.126                36.621                16.518       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_random_run2/'        }        69.922             69.922              14.992           21.441             21.441                40.621                14.915       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_random_run3/'        }        31.434             31.434              6.1944           19.706             19.706                96.216                 6.158       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_sitcov_run1/'        }        42.757             42.757              10.254           23.983             23.983                 61.34                10.099       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_sitcov_run2/'        }        44.061             44.061              10.141           23.015             23.015                 61.73                10.141       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_sitcov_run3/'        }        43.472             43.472              10.421           23.971             23.971                59.306                10.258       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_avfuzzer_run1/'      }        52.801             52.801              25.224           47.771             47.771                25.214                25.224       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_avfuzzer_run2/'      }        46.065             46.065              24.428           53.029             53.029                26.323                24.428       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_avfuzzer_run3/'      }        44.842             44.842              19.922           44.427             44.427                32.076                19.922       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_bayscen_run1/'       }        46.761             46.466              22.455           48.021             48.326                9.1739                24.054       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_bayscen_run2/'       }        48.066             47.956               23.29           48.455             48.565                 8.802                 23.29       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_bayscen_run3/'       }        47.831             47.506              24.003           50.183             50.526                8.5824                23.789       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_bayscen_common_run1/'}        2.3479             2.3479              1.1241           47.875             47.875                173.48                 1.124       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_bayscen_common_run2/'}        2.3479             2.3479              1.1241           47.875             47.875                173.48                 1.124       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_bayscen_common_run3/'}        2.3479             2.3479              1.1241           47.875             47.875                173.48                 1.124       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_ctbc_run1/'          }       0.55356            0.55356             0.34114           61.626             61.626                1741.2                 0.341       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_ctbc_run2/'          }        0.5461             0.5461             0.37867            69.34              69.34                1568.7                 0.379       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_ctbc_run3/'          }       0.58673            0.58673             0.36144           61.603             61.603                1643.4                 0.361       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_pict_2way_run1/'     }         31.03              31.03              6.6917           21.565             21.565                7.9202                 6.692       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_pict_2way_run2/'     }        32.929             32.929              7.8444           23.822             23.822                7.2663                 7.844       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_pict_2way_run3/'     }        32.801             32.801              8.5692           26.125             26.125                6.6517                 8.569       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_pict_3way_run1/'     }        32.247             32.247              13.226           41.016             41.016                38.937                13.226       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_pict_3way_run2/'     }        32.247             32.247              13.226           41.016             41.016                38.937                13.226       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_pict_3way_run3/'     }        32.247             32.247              13.226           41.016             41.016                38.937                13.226       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_random_run1/'        }        31.526             31.526              12.607           39.989             39.989                50.131                12.607       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_random_run2/'        }        31.526             31.526              12.607           39.989             39.989                50.131                12.607       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_random_run3/'        }        39.997             39.997              20.548           51.375             51.375                31.292                20.548       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_sitcov_run1/'        }         34.38              34.38              17.439           50.725             50.725                37.043                17.439       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_sitcov_run2/'        }        29.288             29.288               13.22           45.139             45.139                48.335                13.202       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_sitcov_run3/'        }        30.252             30.252              13.607            44.98              44.98                46.814                13.607       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_avfuzzer_run1/'         }        32.729             32.729              17.014           51.985             51.985                37.322                13.747       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_avfuzzer_run2/'         }         66.66              66.66              35.649           53.478             53.478                17.953                32.314       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_avfuzzer_run3/'         }        37.297             37.297              17.209            46.14              46.14                35.795                17.357       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_bayscen_run1/'          }         49.56             49.442              30.204           60.945              61.09                21.156                29.612       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_bayscen_run2/'          }        41.071             41.047              26.848            65.37             65.407                23.838                26.308       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_bayscen_run3/'          }        46.738             46.389              29.051           62.158             62.625                22.065                29.709       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_bayscen_common_run1/'   }        5.0672             5.0672                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_bayscen_common_run2/'   }        6.8411             6.8411                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_bayscen_common_run3/'   }        4.9162             4.9162                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_ctbc_run1/'             }         41.16             38.989               7.625           18.525             19.557                 11.41                 7.016       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_ctbc_run2/'             }        40.982             38.457              8.9451           21.827              23.26                9.6142                 6.442       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_ctbc_run3/'             }        41.468             39.913              8.3901           20.233             21.021                10.727                 8.391       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_pict_2way_run1/'        }        22.293             22.293               4.109           18.432             18.432                14.115                 1.915       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_pict_2way_run2/'        }        25.743             25.743              3.2079           12.461             12.461                18.081                 1.872       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_pict_2way_run3/'        }        21.049             21.049              2.5435           12.083             12.083                22.804                 1.729       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_pict_3way_run1/'        }        18.276             18.276               2.072           11.338             11.338                194.01                 1.784       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_pict_3way_run2/'        }        17.578             17.578              1.7724           10.083             10.083                225.12                 1.576       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_pict_3way_run3/'        }        17.253             17.253              1.7349           10.055             10.055                223.65                 1.473       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_random_run1/'           }        26.688             26.688               2.028            7.599              7.599                254.44                 1.821       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_random_run2/'           }        27.706             27.706              4.0466           14.606             14.606                142.34                 3.726       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_random_run3/'           }        27.412             27.412              2.0184           7.3631             7.3631                236.33                 2.505       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_sitcov_run1/'           }        26.552             26.552              8.5371           32.153             32.153                73.679                 7.847       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_sitcov_run2/'           }        28.281             28.281              8.6148           30.462             30.462                72.665                 6.626       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_sitcov_run3/'           }        27.425             27.425              8.9891           32.777             32.777                69.751                 7.556       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_avfuzzer_run1/'         }        116.22             116.22              56.708           48.796             48.796                11.233                 56.19       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_avfuzzer_run2/'         }        76.761             76.761              37.411           48.737             48.737                17.241                36.573       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_avfuzzer_run3/'         }        103.63             103.63              46.468           44.841             44.841                13.773                41.471       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_bayscen_run1/'          }        70.241             69.909               46.58           66.314             66.629                13.804                45.085       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_bayscen_run2/'          }         52.49             52.078               32.85           62.584             63.079                 19.33                34.439       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_bayscen_run3/'          }        53.694             53.498              33.877           63.093             63.324                18.833                 31.83       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_bayscen_common_run1/'   }        4.9099             4.9099                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_bayscen_common_run2/'   }        4.9292             4.9292                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_bayscen_common_run3/'   }        4.8295             4.8295                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_ctbc_run1/'             }        67.425             67.425              26.491           39.289             39.289                6.0776                25.792       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_ctbc_run2/'             }        63.821             63.821              25.372           39.755             39.755                6.3062                24.083       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_ctbc_run3/'             }         65.19              65.19              22.623           34.704             34.704                6.8955                21.738       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_pict_2way_run1/'        }        50.265             50.265               5.945           11.827             11.827                8.5787                 5.285       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_pict_2way_run2/'        }         50.86              50.86              4.9748           9.7813             9.7813                11.257                 4.351       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_pict_2way_run3/'        }        51.676             51.676              4.9163           9.5136             9.5136                11.187                 6.009       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_pict_3way_run1/'        }        58.092             58.092              11.562           19.903             19.903                43.332                 9.917       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_pict_3way_run2/'        }        51.399             51.399              9.5289           18.539             18.539                53.207                 9.236       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_pict_3way_run3/'        }         56.56              56.56              9.8821           17.472             17.472                50.698                 9.268       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_random_run1/'           }        49.422             49.422              10.165           20.567             20.567                59.421                10.076       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_random_run2/'           }        52.076             52.076              12.903           24.777             24.777                48.905                12.407       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_random_run3/'           }        65.345             65.345              14.899             22.8               22.8                40.808                14.745       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_sitcov_run1/'           }        42.648             42.648              9.6507           22.629             22.629                64.969                 9.551       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_sitcov_run2/'           }        42.294             42.294              9.3508           22.109             22.109                66.412                 9.314       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_sitcov_run3/'           }        42.242             42.242              9.9976           23.667             23.667                62.515                 9.883       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_avfuzzer_run1/'         }         39.93              39.93              23.054           57.735             57.735                27.718                23.054       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_avfuzzer_run2/'         }        47.606             47.606              25.159           52.848             52.848                25.518                25.159       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_avfuzzer_run3/'         }         50.22              50.22              22.538           44.878             44.878                28.397                22.538       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_bayscen_run1/'          }        48.066             47.956               23.29           48.455             48.565                 8.802                 23.29       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_bayscen_run2/'          }        48.066             47.956               23.29           48.455             48.565                 8.802                 23.29       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_bayscen_run3/'          }        48.066             47.956               23.29           48.455             48.565                 8.802                 23.29       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_bayscen_common_run1/'   }        2.3479             2.3479              1.1241           47.875             47.875                173.48                 1.124       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_bayscen_common_run2/'   }        2.3479             2.3479              1.1241           47.875             47.875                173.48                 1.124       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_bayscen_common_run3/'   }        2.3479             2.3479              1.1241           47.875             47.875                173.48                 1.124       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_ctbc_run1/'             }       0.58673            0.58673             0.36144           61.603             61.603                1643.4                 0.361       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_ctbc_run2/'             }       0.58673            0.58673             0.36144           61.603             61.603                1643.4                 0.361       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_ctbc_run3/'             }       0.58673            0.58673             0.36144           61.603             61.603                1643.4                 0.361       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_pict_2way_run1/'        }        32.929             32.929              7.8444           23.822             23.822                7.2663                 7.844       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_pict_2way_run2/'        }        32.929             32.929              7.8444           23.822             23.822                7.2663                 7.844       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_pict_2way_run3/'        }        32.929             32.929              7.8444           23.822             23.822                7.2663                 7.844       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_pict_3way_run1/'        }        32.247             32.247              13.226           41.016             41.016                38.937                13.226       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_pict_3way_run2/'        }        32.247             32.247              13.226           41.016             41.016                38.937                13.226       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_pict_3way_run3/'        }        32.247             32.247              13.226           41.016             41.016                38.937                13.226       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_sitcov_run1/'           }         33.39              33.39              16.746           50.152             50.152                38.577                16.746       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_sitcov_run2/'           }         29.43              29.43              13.344           45.341             45.341                47.886                13.344       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_3_sitcov_run3/'           }        36.763             36.763              16.079           43.737             43.737                39.866                16.079       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_avfuzzer_run1/'      }        32.172             32.172              16.948           52.679             52.679                37.527                16.781       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_avfuzzer_run2/'      }        35.053             35.053              16.252           46.365             46.365                39.317                16.147       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_avfuzzer_run3/'      }        42.351             42.351              19.769           46.679             46.679                32.273                18.488       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_bayscen_run1/'       }        47.151              47.08                28.7           60.869              60.96                22.335                27.592       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_bayscen_run2/'       }        53.574             53.573              32.708           61.053             61.054                19.567                32.567       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_bayscen_run3/'       }        41.447             41.401              26.659            64.32             64.391                 24.12                26.422       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_bayscen_common_run1/'}        3.3133             3.3133                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_bayscen_common_run2/'}        6.4692             6.4692                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_bayscen_common_run3/'}         3.294              3.294                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_ctbc_run1/'          }        39.509             38.699              8.5033           21.522             21.973                10.937                 8.448       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_ctbc_run2/'          }        40.332             38.018              6.8345           16.946             17.977                12.876                 7.959       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_ctbc_run3/'          }        39.467             38.629              8.3056           21.045             21.501                11.318                 8.044       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_pict_2way_run1/'     }        26.875             26.875              2.5535           9.5015             9.5015                18.014                 2.237       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_pict_2way_run2/'     }        24.403             24.403              2.3629           9.6828             9.6828                20.737                 1.977       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_pict_2way_run3/'     }        25.898             25.898              2.7211           10.507             10.507                18.743                  1.87       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_pict_3way_run1/'     }        17.211             17.211              1.7197            9.992              9.992                 226.2                 1.508       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_pict_3way_run2/'     }        17.925             17.925              2.0406           11.384             11.384                   197                  1.81       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_pict_3way_run3/'     }        17.036             17.036               1.715           10.067             10.067                231.49                 1.616       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_random_run1/'        }        28.372             28.372              6.5602           23.122             23.122                93.747                 6.464       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_random_run2/'        }        28.114             28.114              6.7795           24.114             24.114                92.485                 6.862       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_random_run3/'        }        28.683             28.683              6.9978           24.397             24.397                89.314                 6.923       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_sitcov_run1/'        }        27.228             27.228              8.7374            32.09              32.09                71.532                 8.509       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_sitcov_run2/'        }        27.142             27.142              8.8439           32.584             32.584                70.105                 8.533       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_1_sitcov_run3/'        }        27.803             27.803              8.6791           31.217             31.217                71.781                 8.814       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_avfuzzer_run1/'      }        112.03             112.03               51.34           45.829             45.829                 12.33                59.464       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_avfuzzer_run2/'      }         54.11              54.11               27.79           51.359             51.359                23.174                27.682       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_avfuzzer_run3/'      }        44.697             44.697              20.104           44.977             44.977                31.686                19.037       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_bayscen_run1/'       }        52.996             52.756              34.889           65.833             66.133                18.201                33.612       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_bayscen_run2/'       }        54.276             54.028              34.506           63.574             63.866                 18.49                34.457       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_bayscen_run3/'       }        55.128             54.946              34.198           62.034             62.239                18.744                33.335       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_bayscen_common_run1/'}        4.7173             4.7173                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_bayscen_common_run2/'}         4.761              4.761                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_bayscen_common_run3/'}        4.6185             4.6185                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_ctbc_run1/'          }        65.998             65.998              28.529           43.227             43.227                5.6435                 26.04       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_ctbc_run2/'          }        66.946             66.946              26.259           39.224             39.224                6.0932                 26.21       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_ctbc_run3/'          }        64.331             64.331              25.887           40.241             40.241                6.0261                25.757       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_pict_2way_run1/'     }        50.172             50.172              6.7516           13.457             13.457                8.2943                 7.616       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_pict_2way_run2/'     }        50.922             50.922              6.1835           12.143             12.143                8.8946                 6.158       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_pict_2way_run3/'     }        52.501             52.501              7.8712           14.993             14.993                7.2416                 7.054       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_pict_3way_run1/'     }        57.263             57.263              13.627           23.798             23.798                36.837                 13.46       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_pict_3way_run2/'     }        56.189             56.189              13.418            23.88              23.88                37.264                13.021       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_pict_3way_run3/'     }        53.654             53.654              12.244           22.821             22.821                41.244                12.616       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_random_run1/'        }        68.702             68.702              16.575           24.126             24.126                36.621                16.518       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_random_run2/'        }        69.922             69.922              14.992           21.441             21.441                40.621                14.915       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_random_run3/'        }        31.434             31.434              6.1944           19.706             19.706                96.216                 6.158       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_sitcov_run1/'        }        42.757             42.757              10.254           23.983             23.983                 61.34                10.099       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_sitcov_run2/'        }        44.061             44.061              10.141           23.015             23.015                 61.73                10.141       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_2_sitcov_run3/'        }        43.472             43.472              10.421           23.971             23.971                59.306                10.258       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_avfuzzer_run1/'      }        52.801             52.801              25.224           47.771             47.771                25.214                25.224       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_avfuzzer_run2/'      }        46.065             46.065              24.428           53.029             53.029                26.323                24.428       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_avfuzzer_run3/'      }        44.842             44.842              19.922           44.427             44.427                32.076                19.922       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_bayscen_run1/'       }        46.761             46.466              22.455           48.021             48.326                9.1739                24.054       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_bayscen_run2/'       }        48.066             47.956               23.29           48.455             48.565                 8.802                 23.29       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_bayscen_run3/'       }        47.831             47.506              24.003           50.183             50.526                8.5824                23.789       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_bayscen_common_run1/'}        2.3479             2.3479              1.1241           47.875             47.875                173.48                 1.124       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_bayscen_common_run2/'}        2.3479             2.3479              1.1241           47.875             47.875                173.48                 1.124       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_bayscen_common_run3/'}        2.3479             2.3479              1.1241           47.875             47.875                173.48                 1.124       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_ctbc_run1/'          }       0.55356            0.55356             0.34114           61.626             61.626                1741.2                 0.341       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_ctbc_run2/'          }        0.5461             0.5461             0.37867            69.34              69.34                1568.7                 0.379       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_ctbc_run3/'          }       0.58673            0.58673             0.36144           61.603             61.603                1643.4                 0.361       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_pict_2way_run1/'     }         31.03              31.03              6.6917           21.565             21.565                7.9202                 6.692       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_pict_2way_run2/'     }        32.929             32.929              7.8444           23.822             23.822                7.2663                 7.844       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_pict_2way_run3/'     }        32.801             32.801              8.5692           26.125             26.125                6.6517                 8.569       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_pict_3way_run1/'     }        32.247             32.247              13.226           41.016             41.016                38.937                13.226       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_pict_3way_run2/'     }        32.247             32.247              13.226           41.016             41.016                38.937                13.226       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_pict_3way_run3/'     }        32.247             32.247              13.226           41.016             41.016                38.937                13.226       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_random_run1/'        }        31.526             31.526              12.607           39.989             39.989                50.131                12.607       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_random_run2/'        }        31.526             31.526              12.607           39.989             39.989                50.131                12.607       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_random_run3/'        }        39.997             39.997              20.548           51.375             51.375                31.292                20.548       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_sitcov_run1/'        }         34.38              34.38              17.439           50.725             50.725                37.043                17.439       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_sitcov_run2/'        }        29.288             29.288               13.22           45.139             45.139                48.335                13.202       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Interfuser_3_sitcov_run3/'        }        30.252             30.252              13.607            44.98              44.98                46.814                13.607       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_avfuzzer_run1/'         }        32.729             32.729              17.014           51.985             51.985                37.322                13.747       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_avfuzzer_run2/'         }         66.66              66.66              35.649           53.478             53.478                17.953                32.314       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_avfuzzer_run3/'         }        37.297             37.297              17.209            46.14              46.14                35.795                17.357       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_bayscen_run1/'          }         49.56             49.442              30.204           60.945              61.09                21.156                29.612       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_bayscen_run2/'          }        41.071             41.047              26.848            65.37             65.407                23.838                26.308       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_bayscen_run3/'          }        46.738             46.389              29.051           62.158             62.625                22.065                29.709       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_bayscen_common_run1/'   }        5.0672             5.0672                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_bayscen_common_run2/'   }        6.8411             6.8411                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_bayscen_common_run3/'   }        4.9162             4.9162                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_ctbc_run1/'             }         41.16             38.989               7.625           18.525             19.557                 11.41                 7.016       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_ctbc_run2/'             }        40.982             38.457              8.9451           21.827              23.26                9.6142                 6.442       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_ctbc_run3/'             }        41.468             39.913              8.3901           20.233             21.021                10.727                 8.391       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_pict_2way_run1/'        }        22.293             22.293               4.109           18.432             18.432                14.115                 1.915       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_pict_2way_run2/'        }        25.743             25.743              3.2079           12.461             12.461                18.081                 1.872       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_pict_2way_run3/'        }        21.049             21.049              2.5435           12.083             12.083                22.804                 1.729       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_pict_3way_run1/'        }        18.276             18.276               2.072           11.338             11.338                194.01                 1.784       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_pict_3way_run2/'        }        17.578             17.578              1.7724           10.083             10.083                225.12                 1.576       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_pict_3way_run3/'        }        17.253             17.253              1.7349           10.055             10.055                223.65                 1.473       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_random_run1/'           }        26.688             26.688               2.028            7.599              7.599                254.44                 1.821       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_random_run2/'           }        27.706             27.706              4.0466           14.606             14.606                142.34                 3.726       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_random_run3/'           }        27.412             27.412              2.0184           7.3631             7.3631                236.33                 2.505       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_sitcov_run1/'           }        26.552             26.552              8.5371           32.153             32.153                73.679                 7.847       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_sitcov_run2/'           }        28.281             28.281              8.6148           30.462             30.462                72.665                 6.626       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_1_sitcov_run3/'           }        27.425             27.425              8.9891           32.777             32.777                69.751                 7.556       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_avfuzzer_run1/'         }        116.22             116.22              56.708           48.796             48.796                11.233                 56.19       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_avfuzzer_run2/'         }        76.761             76.761              37.411           48.737             48.737                17.241                36.573       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_avfuzzer_run3/'         }        103.63             103.63              46.468           44.841             44.841                13.773                41.471       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_bayscen_run1/'          }        70.241             69.909               46.58           66.314             66.629                13.804                45.085       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_bayscen_run2/'          }         52.49             52.078               32.85           62.584             63.079                 19.33                34.439       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_bayscen_run3/'          }        53.694             53.498              33.877           63.093             63.324                18.833                 31.83       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_bayscen_common_run1/'   }        4.9099             4.9099                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_bayscen_common_run2/'   }        4.9292             4.9292                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_bayscen_common_run3/'   }        4.8295             4.8295                   0                0                  0                     0                     0       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_ctbc_run1/'             }        67.425             67.425              26.491           39.289             39.289                6.0776                25.792       
+    {'C:/Users/BH280005/Desktop/BayScen/results/rq3/tisa_runs/Modular_2_ctbc_run2/'             }        63.821             63.821              25.372           39.755             39.755                6.3062                24.083       
+
+-> Completed! Elapsed time: 23.4215s
+EOF:SUCCESS
+EOF:SUCCESS

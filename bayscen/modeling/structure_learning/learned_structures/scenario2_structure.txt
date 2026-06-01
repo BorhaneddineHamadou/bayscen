@@ -1,0 +1,40 @@
+# NODES (9 variables)
+# ===================
+Sun_Altitude_Angle
+Cloudiness
+Wind_Intensity
+Precipitation
+Precipitation_Deposits
+Wetness
+Fog_Density
+Fog_Distance
+Road_Friction
+
+# EDGES (11 directed arcs)
+# ========================
+# Format: Parent -> Child
+
+# From Sun_Altitude_Angle  (ISO §10.4(d) — solar elevation / lighting)
+Sun_Altitude_Angle -> Cloudiness
+Sun_Altitude_Angle -> Wind_Intensity
+
+# From Cloudiness
+Cloudiness -> Precipitation
+
+# From Wind_Intensity
+Wind_Intensity -> Fog_Density
+
+# From Precipitation
+Precipitation -> Precipitation_Deposits
+Precipitation -> Fog_Density
+
+# From Precipitation_Deposits
+Precipitation_Deposits -> Wetness
+Precipitation_Deposits -> Road_Friction
+
+# From Wetness
+Wetness -> Road_Friction
+
+# From Fog_Density
+Fog_Density -> Fog_Distance
+Fog_Density -> Wetness

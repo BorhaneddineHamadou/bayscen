@@ -1,0 +1,10 @@
+TimeOfDay: -90, -60, -30, 0, 30, 60, 90
+Direction: left, right
+RoadFriction: 0.1, 0.2, 0.4, 0.6, 0.8, 1
+FogDensity: 0, 20, 40, 60, 80, 100
+Precipitation: 0, 20, 40, 60, 80, 100
+PrecipitationDeposits: 0, 20, 40, 60, 80, 100
+Cloudiness: 0, 20, 40, 60, 80, 100
+WindIntensity: 0, 20, 40, 60, 80, 100
+Wetness: 0, 20, 40, 60, 80, 100
+FogDistance: 0, 20, 40, 60, 80, 100

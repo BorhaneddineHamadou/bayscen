@@ -1,0 +1,3 @@
+Row,direction,cloudiness,precipitation,precipitationdeposits,windintensity,timeofday,fogdensity,fogdistance,wetness,roadfriction
+Z_{1},-0.0905,-0.6914,-0.0328,-0.0749,0.6503,-0.3098,0.4744,0.226,0.0155,0.048
+Z_{2},-0.1536,0.3038,-0.2679,-0.0099,-0.3709,-0.2738,0.2866,-0.5331,0.4098,-0.5516
